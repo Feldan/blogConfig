@@ -103,7 +103,7 @@ theme: ayer
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: root@www.feldan.top:/www/blog/feldan-blog/hexo.git # ip 为服务器ip
+  repo: git@www.feldan.top:/www/blog/feldan-blog/hexo.git # ip 为服务器ip
   branch: master
 
 # hexo-generator-searchdb
