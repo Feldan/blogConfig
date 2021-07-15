@@ -1,13 +1,15 @@
 #title in header
-title: "Hi Folks."
+title: "肥博"
 
 #main info
 #owner
-owner: "I am Adi Sakti Jrs"
-email: test@test.test
-info: "A student and web developer from Indonesia 🇮🇩"
+owner: "肥尔丹"
+#email: test@test.com
+info: "一名计算机在读的带学生" 
+
 #description
-desc: "This is Minima, an undoubtedly simple and lightweight dark/light mode theme for Hexo. I created this from scratch using Skeleton CSS boilerplate. It only uses CSS and Vanilla JS, without using unnecessary third-party 'render-blocking' libraries! 😁"
+#desc: "This is Minima, an undoubtedly simple and lightweight dark/light mode theme for Hexo. I created this from scratch using Skeleton CSS boilerplate. It only uses CSS and Vanilla JS, without using unnecessary third-party 'render-blocking' libraries! 😁"
+desc: "😁"
 
 #menu
 menu:
