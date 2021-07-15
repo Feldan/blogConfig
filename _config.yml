@@ -105,3 +105,8 @@ deploy:
   type: git
   repo: git@www.feldan.top:/www/blog/feldan-blog/hexo.git
   branch: master
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 10

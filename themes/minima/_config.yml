@@ -15,7 +15,8 @@ desc: "😁"
 menu:
   #Works: /Works
   导航: /导航
-  About: /About
+  关于: /about
+  RSS: /atom.xml
 
 #index/main page max show posts (in number)
 max_post: 7
@@ -38,6 +39,7 @@ github: https://github.com/adisaktijrs
 # twitter: https://twitter.com/adisaktijrs
 # instagram: https://instagram.com/adisaktijrs
 # stackoverflow: https://stackoverflow.com/story/tobiasreithmeier
+
 
 # Misc
 nanobar: /js/nanobar.min.js
