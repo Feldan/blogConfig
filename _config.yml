@@ -3,18 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 肥博
-subtitle: '个人博客'
-description: '一个肥肥的自习室'
+title: Hexo
+subtitle: ''
+description: ''
 keywords:
-author: 肥尔丹
-language: zh-CN
+author: John Doe
+language: en
 timezone: ''
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url:  http://blog.feldan.top
-root: /
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -41,18 +40,18 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
   tab_replace: ''
-  wrap: true
+  wrap: false
   hljs: false
 prismjs:
-  enable: false
+  enable: ture
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -98,17 +97,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ayer
+theme: minima
+
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@www.feldan.top:/www/blog/feldan-blog/hexo.git # ip 为服务器ip
+  repo: git@www.feldan.top:/www/blog/feldan-blog/hexo.git
   branch: master
-
-# hexo-generator-searchdb
-search:
-  path: search.xml
-  field: post
-  format: html
-
