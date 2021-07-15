@@ -13,7 +13,8 @@ desc: "😁"
 
 #menu
 menu:
-  Works: /Works
+  #Works: /Works
+  导航: /导航
   About: /About
 
 #index/main page max show posts (in number)
