@@ -15,9 +15,17 @@ date: 2021-07-15 17:19:22
 [百度翻译](https://fanyi.baidu.com/)    [谷歌翻译](https://translate.google.cn/)    [虫部落](https://chongbuluo.com/)  [老司机导航](https://www.giffox.com/)    [鸠摩搜书](https://www.jiumodiary.com/)     [高清壁纸](https://wall.alphacoders.com/?lang=Chinese)       
 
 # 娱乐
+
+<div class="about center mb-1">
 <a href="https://adnmb3.com/Forum" > <img src="http://blog.feldan.top/2020/08/22/导航/1.png" alt="A岛"></a>
 <br>
 <a href="https://www.acfun.cn/" > <img src="http://blog.feldan.top/2020/08/22/导航/2.png" alt="ACFUN"></a>
+</div> 
+<br>
+<br>
+<br>
+<br>
+<br>
 
 [龙腾网](http://www.ltaaa.com/)
  
@@ -92,8 +100,10 @@ date: 2021-07-15 17:19:22
 <p><a href="https://d3js.org/" target="_blank" rel="noopener">D3</a> 非常强大的 JavaScript 可视化库</p>
 <p><a href="https://reactnative.cn/" target="_blank" rel="noopener">React Native中文网</a> 使用JavaScript和React编写原生移动应用</p>
 <p><a href="https://www.redux.org.cn/" target="_blank" rel="noopener">Redux</a> Redux 是 JavaScript 状态容器，提供可预测化的状态管理。适用于 React，提供 Vuex 类似的功能。</p>  
+<div>
 
 # Vue
+
 <p><a href="https://juejin.im/post/5e4d24cce51d4526f76eb2ba" target="_blank" rel="noopener">2020年大厂面试指南 - Vue篇</a></p>
 <blockquote>
 <p>看大厂面试题对于理解相关知识也是很有用的。重要的是不要死记硬背，因为很多答案并不是从原理讲起，或者讲了看不懂，需要结合官方文档和实际上手去理解。</p>
