@@ -1,0 +1,6 @@
+  <!-- 文章主体 -->
+  <h2><%- page.title %></h2>
+  <p><%- full_date(page.date, 'YYYY-MM-DD') %></p>
+  <%- page.content%>
+  <p><%- list_tags(page.tags, {class: 'classtest', show_count: false, style: false}) %></p>
+  <%- partial('partial/comments') %>
