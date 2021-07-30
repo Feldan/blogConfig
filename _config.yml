@@ -106,7 +106,7 @@ theme: minima
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@www.feldan.top:/www/blog/feldan-blog/hexo.git
+  repo: git@blog.feldan.top:/www/blog/feldan-blog/hexo.git
   branch: master
 
 feed:
