@@ -47,18 +47,28 @@ vim /etc/sudoers
 ## 5.1.服务器上建立git裸库
 创建一个裸仓库，裸仓库就是只保存git信息的Repository, 首先切换到git用户确保git用户拥有仓库所有权
 一定要加 --bare，这样才是一个裸库。
+```bash
+cd /home/git  # 进入 git 用户目录
+mkdir blog && chown -R git:git blog # 创建博客文件夹，，设置权限,作为 nginx web 目录
+mkdir projects && chown -R git:git projects  && cd projects  # 创建项目目录，设置权限并进入
+git init --bare hexo.git && chown -R git:git hexo.git # 创建博客裸仓，设置权限
 ```
-su git
-cd ~
-git init --bare blog.git
-```
-## 5.2.使用 git-hooks 同步网站根目录
-在这里我们使用的是 post-receive这个钩子，当git有收发的时候就会调用这个钩子。 在 ~/blog.git 裸库的 hooks文件夹中，新建post-receive文件。
-```
-vim ~/blog.git/hooks/post-receive
 
-#!/bin/sh
-git --work-tree=/path/to/www --git-dir=~/blog.git checkout -f
+## 5.2.1使用 git-hooks 同步网站根目录
+在这里我们使用的是 post-receive这个钩子，当git有收发的时候就会调用这个钩子。 在 ~/blog.git 裸库的 hooks文件夹中，新建post-receive文件。如下
+```
+cd /home/git/projects/hexo.git/hooks # 进入 hook 目录
+vim ~/blog.git/hooks/post-receive
+```
+或者编辑post-update也可以
+```
+cd /home/git/projects/hexo.git/hooks # 进入 hook 目录
+mv post-update.sample post-update # 重命名 post-update
+vi post-update # vim 进行编辑
+```
+## 5.2.2输入一下内容
+```
+git --work-tree=/home/git/blog --git-dir=/home/git/projects/hexo.git checkout -f 
 ```
 保存后，要赋予这个文件可执行权限
 ```
