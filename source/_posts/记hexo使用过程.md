@@ -74,6 +74,9 @@ git --work-tree=/home/git/blog --git-dir=/home/git/projects/hexo.git checkout -f
 ```
 chmod +x post-receive
 ```
+> - --work-tree后目录为本地部署静态文件到服务器裸仓上后触发钩子自动在此目录增加部署的文件  
+> - --git-dir后目录为裸仓目录    
+> - checkout -f为本地到服务器裸仓部署后调用post-checkout钩子，根据项目环境调整工作目录,在--work-tree给定目录下增加文件   
 ## 5.3.配置_config.yml,完成自动化部署
 然后打开 _config.yml, 找到 deploy  
 ```
